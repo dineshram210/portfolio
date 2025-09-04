@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio — Dinesh Ram N R</title>
+  <meta name="description" content="Building the future with code & creativity. Portfolio of Dinesh Ram N R — developer, designer, and creator." />
+  <meta name="theme-color" content="#0b1020" />
+
+  <!-- OpenGraph / Twitter -->
+  <meta property="og:title" content="Dinesh Ram N R — Futuristic Portfolio" />
+  <meta property="og:description" content="Building the future with code & creativity." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og-image.jpg" />
+  <meta property="og:url" content="https://yourdomain.com" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> -->
+</head>
+<body>
+  <!-- Background canvas for particles -->
+  <canvas id="bg"></canvas>
+
+  <!-- Gradient orbs -->
+  <div class="orb orb-"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <!-- Header / Nav -->
+  <header class="glass-nav">
+    <div class="container nav-inner">
+      <a href="#home" class="brand">
+        <span class="brand-badge">DR</span>
+        <span class="brand-name">Dinesh Ram N R</span>
+      </a>
+      <nav class="nav">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <a class="btn btn-primary btn-small" href="resume.png" target="_blank" rel="noopener">
+        <i class="fa-solid fa-cloud-arrow-down"></i>
+        <span>View Resume</span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero section">
+      <div class="container grid-2">
+        <div class="hero-copy reveal">
+          <h1 class="headline">
+            <span class="glow-text">Dinesh Ram N R</span>
+          </h1>
+          <p class="tagline">Code, Create, Innovate, Empower.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="resume.png" target="_blank" rel="noopener">
+              <i class="fa-solid fa-bolt"></i>
+              View Resume
+            </a>
+            <a class="btn btn-ghost" href="#projects">
+              <i class="fa-solid fa-grip"></i>
+              View Projects
+            </a>
+          </div>
+          <br>
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/dinesh-ram-949353308/" aria-label="LinkedIn" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/dineshram210" aria-label="GitHub" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/__im___ram___" aria-label="Instagram" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="https://youtube.com/@dineshram21040?si=Y2I32j1NMU93edDm" aria-label="YouTube" class="social-link"><i class="fab fa-youtube"></i></a>
+            <a href="https://wa.me/919342850990" aria-label="Whatsapp" class="social-link"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="pfp-wrap">
+            <img src="assets/img1.jpeg" alt="Portrait of Dinesh Ram N R" class="pfp" />
+          </div>
+          <div class="stats glass-card">
+            <div><span class="metric">2+</span><span class="label">Years Experience</span></div>
+            <div><span class="metric">30+</span><span class="label">Projects</span></div>
+            <div><span class="metric">8+</span><span class="label">Tech Stack</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="about grid-2">
+          <div class="about-card glass-card reveal">
+            <p>
+              I’m <strong>Dinesh Ram N R</strong>, a results-driven Full Stack Developer passionate about building high-performance, secure, and scalable web solutions. I specialize in crafting responsive, user-focused applications with cutting-edge technologies across front-end and back-end architectures. My expertise spans HTML, CSS, JavaScript, PHP, MySQL, and modern frameworks, complemented by experience in cloud technologies like AWS for deployment and scalability. I thrive in hackathon environments, where speed and precision meet innovation. Beyond code, I channel creativity through professional video editing in DaVinci Resolve, merging technical excellence with visual storytelling. Dedicated to continuous learning, I push boundaries to transform complex ideas into powerful digital experiences that inspire and deliver impact.
+            </p>
+            <p>
+              Focus Areas: HTML, CSS, JavaScript, React, node.js, PHP, MySQL, Bootstrap, GitHub, AWS Cloud, and DaVinci Resolve Editing.
+            </p>
+
+            <div class="stack-icons">
+              <span class="stack-icon"><i class="fa-brands fa-html5"></i> HTML</span>
+              <span class="stack-icon"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+              <span class="stack-icon"><i class="fa-brands fa-js"></i> JavaScript</span>
+              <span class="stack-icon"><i class="fa-brands fa-php"></i> PHP</span>
+              <span class="stack-icon"><i class="fa-solid fa-database"></i> MySQL</span>
+              <span class="stack-icon"><i class="fa-brands fa-aws"></i> AWS</span>
+              <span class="stack-icon"><i class="fa-solid fa-video"></i> DaVinci Resolve</span>
+
+            </div>
+          </div>
+          <div class="about-media reveal">
+            <div class="glass-card about-photo">
+              <img src="assets/img1.jpeg" alt="Workspace" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Projects</h2>
+        <div class="projects-grid">
+          <!-- Project Card 1 -->
+          <article class="project-card reveal" data-tilt>
+            <div class="project-media" style="background-image: url('assets/project2.png');"></div>
+            <div class="project-content glass-card">
+              <h3>Sign-in Page of Skynet Developer Environment</h3>
+              <p>Sign in to access Skynet’s powerful developer environment – your gateway to real-time analytics, code management, and seamless deployment.</p>
+              <div class="project-tags">
+                <span>Html</span><span>Css</span><span>JavaScript + $Ajax</span><span>PHP</span><span>MY SQL</span>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="btn btn-primary btn-small"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                <a href="#" class="btn btn-ghost btn-small"><i class="fa-brands fa-github"></i> GitHub</a>
+              </div>
+            </div>
+          </article>
+          <!-- Project Card 2 -->
+          <article class="project-card reveal" data-tilt>
+            <div class="project-media" style="background-image:url('assets/project1.png');"></div>
+            <div class="project-content glass-card">
+              <h3>My-Profile page of Skynet Developer Environment</h3>
+              <p>An intelligent profile dashboard designed for developers to monitor assigned projects in real-time, track credit points, ranks, and earned stars. </p>
+              <div class="project-tags">
+                <span>Html</span><span>Css</span><span>PhP My Admin</span><span>My SQL</span><span>AWS s3 bucket Usage</span>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="btn btn-primary btn-small"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                <a href="#" class="btn btn-ghost btn-small"><i class="fa-brands fa-github"></i> GitHub</a>
+              </div>
+            </div>
+          </article>
+          <!-- Project Card 3 -->
+          <article class="project-card reveal" data-tilt>
+            <div class="project-media" style="background-image:url('assets/project3.png');"></div>
+            <div class="project-content glass-card">
+              <h3>PhantomTalk</h3>
+              <p>Anonymous. Secure. Untraceable. That’s PhantomTalk.</p>
+              <div class="project-tags">
+                <span>Html</span><span>Css</span><span>PHP</span><span>My SQL</span><span>PHP My Admin</span>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="btn btn-primary btn-small"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                <a href="#" class="btn btn-ghost btn-small"><i class="fa-brands fa-github"></i> GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill glass-card reveal">
+            <div class="skill-top">
+              <span>HTML</span>
+              <span class="skill-value">95%</span>
+            </div>
+            <div class="skill-bar" data-value="95">
+              <span class="fill"></span>
+            </div>
+          </div>
+          <div class="skill glass-card reveal">
+            <div class="skill-top">
+              <span>CSS</span>
+              <span class="skill-value">70%</span>
+            </div>
+            <div class="skill-bar" data-value="70">
+              <span class="fill"></span>
+            </div>
+          </div>
+          <div class="skill glass-card reveal">
+            <div class="skill-top">
+              <span>Bootstrap</span>
+              <span class="skill-value">40%</span>
+            </div>
+            <div class="skill-bar" data-value="40">
+              <span class="fill"></span>
+            </div>
+          </div>
+          <div class="skill glass-card reveal">
+            <div class="skill-top">
+              <span>JavaScript + $Ajax</span>
+              <span class="skill-value">90%</span>
+            </div>
+            <div class="skill-bar" data-value="90">
+              <span class="fill"></span>
+            </div>
+          </div>
+          <div class="skill glass-card reveal">
+            <div class="skill-top">
+              <span>PHP</span>
+              <span class="skill-value">85%</span>
+            </div>
+            <div class="skill-bar" data-value="85">
+              <span class="fill"></span>
+            </div>
+          </div>
+          <div class="skill glass-card reveal">
+            <div class="skill-top">
+              <span>AWS</span>
+              <span class="skill-value">70%</span>
+            </div>
+            <div class="skill-bar" data-value="70">
+              <span class="fill"></span>
+            </div>
+          </div>
+          <div class="skill glass-card reveal">
+            <div class="skill-top">
+              <span>Php Myadmin + My SQL</span>
+              <span class="skill-value">95%</span>
+            </div>
+            <div class="skill-bar" data-value="95">
+              <span class="fill"></span>
+            </div>
+          </div>
+          <div class="skill glass-card reveal">
+            <div class="skill-top">
+              <span>C++</span>
+              <span class="skill-value">75%</span>
+            </div>
+            <div class="skill-bar" data-value="75">
+              <span class="fill"></span>
+            </div>
+          </div>
+          <div class="skill glass-card reveal">
+            <div class="skill-top">
+              <span>Node.JS</span>
+              <span class="skill-value">25%</span>
+            </div>
+            <div class="skill-bar" data-value="25">
+              <span class="fill"></span>
+            </div>
+          </div>
+          <div class="skill glass-card reveal">
+            <div class="skill-top">
+              <span>React</span>
+              <span class="skill-value">15%</span>
+            </div>
+            <div class="skill-bar" data-value="15">
+              <span class="fill"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Contact</h2>
+        <div class="contact-grid">
+          <form id="contactForm">
+            <div class="input-group">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your full name" required />
+            </div>
+            <div class="input-group">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required />
+            </div>
+            <div class="input-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button class="btn btn-primary" type="button" onclick="save()">
+              Send Message
+            </button>
+          </form>
+          <div class="contact-meta glass-card reveal">
+            <h3>Let’s build something amazing</h3>
+            <p>Open to new projects, collaborations, and roles. Drop me a message anytime!</p>
+            <div class="contact-socials">
+              <a href="https://www.linkedin.com/in/dinesh-ram-949353308/" class="chip"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+              <a href="https://github.com/dineshram210" class="chip"><i class="fab fa-github"></i> GitHub</a>
+              <a href="https://www.instagram.com/__im___ram___" class="chip"><i class="fab fa-instagram"></i> Instagram</a>
+              <a href="https://youtube.com/@dineshram21040?si=Y2I32j1NMU93edDm" class="chip"><i class="fab fa-youtube"></i> YouTube</a>
+              <a href="https://wa.me/919342850990" class="chip"><i class="fab fa-whatsapp"></i>whatsap-DM</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Dinesh Ram N R. All rights reserved.</p>
+      <p class="made-with">Made with <span class="heart">❤️</span> by <span class="glow-text">Dinesh Ram N R</span></p>
+    </div>
+  </footer>
+
+  <button class="to-top" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+<script>
+  async function save() {
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      if (name === '' || email === '' || message === '') {
+          alert('Please fill all fields!');
+          return;
+      } else {
+          alert(name + ', ' + email + ', ' + message);
+      }
+
+      try {
+          const formData = new FormData();
+          formData.append('name', name);
+          formData.append('email', email);
+          formData.append('message', message);
+
+          const response = await fetch('process.php', {
+              method: 'POST',
+              body: formData
+          });
+
+          const text = await response.text();
+          alert(text); // process.php response
+
+          if (text.includes('successfully')) {
+              document.getElementById('contactForm').reset(); // Clear form
+          }
+      } catch (error) {
+          console.error('Error:', error);
+          alert('Something went wrong. Please try again.');
+      }
+  }
+</script>
+
+  <script src="script.js"></script>
+</body>
+</html>
